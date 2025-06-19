@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Quiz App!</h1>
+
+    <label for="questionCount">Select Number of Questions:</label>
+    <select id="questionCount">
+      <option value="5">5 Questions</option>
+      <option value="10" selected>10 Questions</option>
+      <option value="15">15 Questions</option>
+    </select>
+
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <script>
+    function startQuiz() {
+      const count = document.getElementById('questionCount').value;
+      localStorage.setItem('questionCount', count);
+      window.location.href = 'quiz.html';
+    }
+  </script>
+</body>
+</html>

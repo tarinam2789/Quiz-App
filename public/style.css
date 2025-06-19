@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #ffe4ec, #f3e5f5, #e0f7f4, #fff3e0);
+  background-size: 400% 400%;
+  animation: pastelFlow 25s ease infinite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes pastelFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+
+
+h1 {
+  color: #d81b60; /* deep pink */
+  margin-bottom: 20px;
+}
+
+label, p {
+  font-size: 18px;
+  color: #5a4a57; /* muted plum */
+}
+
+select {
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #e1bee7; /* lilac */
+  background-color: #fff7f9;
+}
+
+button {
+  background: linear-gradient(45deg, #f48fb1, #ce93d8, #81d4fa, #aed581);
+  background-size: 300% 300%;
+  animation: rainbowPulse 8s ease infinite;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes rainbowPulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.45);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #ffeaf4; /* light pink */
+  padding: 14px 22px;
+  margin: 14px 0;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  color: #52394d; /* deep mauve */
+  border: 1px solid #f8bbd0;
+}
+
+li:hover {
+  background-color: #d1c4e9; /* pastel lilac */
+  transform: scale(1.02);
+}
+
+li.selected {
+  background: linear-gradient(45deg, #f48fb1, #ce93d8);
+  color: white;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 0 10px #ce93d8;
+}
+
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ad1457; 
+  margin-bottom: 18px;
+}
+
+label, select {
+  font-family: 'Georgia', serif; 
+}
+
+
+select {
+  margin-bottom: 60px; 
+}
+
+
+

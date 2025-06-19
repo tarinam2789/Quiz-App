@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Completed!</h1>
+    <p id="scoreText">You scored: 0</p>
+    <button onclick="restartQuiz()">Play Again</button>
+  </div>
+
+  <script>
+    const score = localStorage.getItem('quizScore') || 0;
+    document.getElementById('scoreText').textContent = `You scored: ${score}`;
+    
+    function restartQuiz() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
