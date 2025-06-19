@@ -11,7 +11,9 @@ if (window.location.pathname.endsWith('quiz.html')) {
 
 async function fetchQuestions() {
   const count = localStorage.getItem('questionCount') || 10;
-  const res = await fetch(`/api/questions?count=${count}`);
+  // const res = await fetch(`/api/questions?count=${count}`);
+  const res = await fetch('/questions.json');
+
   
   questions = await res.json();
   startTimer();
