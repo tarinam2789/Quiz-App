@@ -2,7 +2,7 @@
 
 Created by: **Tarina Muna**
 
-This web app: **The Quiz App is a dynamic, browser-based application that lets users test their knowledge through a fun and interactive multiple-choice quiz. Users can choose how many questions they want to answer, and each quiz session randomly selects questions from a larger pool to ensure a fresh experience every time. The app features a clean and colorful design with subtle animations, a countdown timer for added challenge, and a final results screen that displays the user's score. It’s built with HTML, CSS, and JavaScript, and follows a client-server model to manage question selection and game flow.**
+This web app: **is a dynamic, browser-based application that lets users test their knowledge through a fun and interactive multiple-choice quiz. Users can choose how many questions they want to answer, and each quiz session randomly selects questions from a larger pool to ensure a fresh experience every time. The app features a clean and colorful design with subtle animations, a countdown timer for added challenge, and a final results screen that displays the user's score. It’s built with HTML, CSS, and JavaScript, and follows a client-server model to manage question selection and game flow.**
 
 ## Features
 
@@ -14,12 +14,27 @@ This web app: **The Quiz App is a dynamic, browser-based application that lets u
 - [x] 🎨 Stylish animated UI with soft pink and multicolor accents.
 - [x] 📱 Responsive layout for desktop and mobile devices.
 
+
+## 🚀 How to Run
+
+1. Make sure you have **[Node.js](https://nodejs.org/)** installed on your machine.
+
+2. Clone this repository or download the project folder.
+
+3. Open your terminal and navigate into the project directory.
+
+4. Run the server using:
+
+5. ```bash
+6. node server.js
+
  
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/assets/quiz app.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="/assets/quiz app.gif" alt="Video Walkthrough" title="Video Walkthrough" />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Keynote  
