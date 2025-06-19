@@ -10,6 +10,7 @@ This web app: **is a dynamic, browser-based application that lets users test the
 - [x] 💡 Option to choose how many questions to play.
 - [x] ⏳ Countdown timer to challenge users.
 - [x] ✅ Shows final score at the end of the quiz.
+- [x] 🛎️ Shows whether your answer was correct or incorrect immediately after clicking the **Next** button.
 - [x] 🔁 Option to restart the quiz after finishing.
 - [x] 🎨 Stylish animated UI with soft pink and multicolor accents.
 - [x] 📱 Responsive layout for desktop and mobile devices.
@@ -25,8 +26,7 @@ This web app: **is a dynamic, browser-based application that lets users test the
 
 4. Run the server using:
 
-5. ```bash
-6. node server.js
+5. node server.js
 
  
 ## Video Walkthrough
